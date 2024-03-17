@@ -1,0 +1,135 @@
+*{
+font-family: "Orbitron",sans-serif;
+}
+
+
+body{
+    background-color:    rgb(255, 255, 255);
+}
+
+.timer{
+border-radius:50%;
+height:500px;
+width:500px;
+position:fixed;
+top:50%;
+left:50%;
+margin-top:-250px;
+margin-left:-250px;
+background-color: rgb(24, 23, 23);
+}
+
+.shape.active
+{background-color:rgb(255, 255, 255); /*for flashing*/
+    background-image:none;
+}
+.shape:active{
+    background-color: black; /*to indicate you clicked it */
+    background-image: none;
+}
+
+
+
+
+.green{ border-radius: 50%;
+height:250px;
+width:250px;
+position:absolute;
+left:-100px;
+top:-100px;
+outline-style:solid;
+outline-width:15px;
+background-color: green;
+cursor: pointer;
+}
+
+.red{
+border-radius: 50%; 
+height:250px;  
+width:250px;
+position: absolute; 
+left:350px;
+top:-100px;  
+outline-style:solid;
+outline-width:15px;
+background-color: red;
+cursor: pointer;
+}
+.blue{  
+border-radius:50%;  
+height:250px;
+width:250px; 
+position:absolute; 
+left:350px;  
+top:350px;
+outline-style:solid;
+outline-width:15px;
+background-color: blue;
+cursor: pointer;
+}
+
+.yellow{
+border-radius:50%;  
+height:250px; 
+width:250px;   
+position:absolute;  
+left:-100px;   
+top:350px;   
+outline-style:solid;   
+outline-width:15px;
+background-color: yellow;
+cursor: pointer;
+}
+.timer
+.display{
+position:absolute;
+top:50%;
+left:50%;
+transform:translate(-50%,-50%);
+font-size:50px;
+color:white;
+font-weight:450;
+justify-content:center;
+align-items:center;
+display:flex;
+}
+.display
+.start{
+margin-left:10px;
+margin-right:10px;
+font-size:35px;
+cursor: pointer;
+}
+.display
+.highscore{
+font-size:40px;
+width:70px;
+background-color:rgb(160,160,160);
+border-radius:5px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+.display
+.score{
+font-size:40px;
+width:70px;
+background-color:rgb(160,160,160);
+border-radius:5px;
+display:flex;
+align-items:center;
+justify-content:center;
+}
+
+
+.timer
+.light{
+border-radius:50%;
+height:20px;
+width:20px;
+position:absolute;
+left:240px;
+top:330px;
+background-color:red;
+}
+
